@@ -125,7 +125,7 @@ int main(int const argc, char const ** argv)
     cv::remap(frame, undistFrame, map1, map2, cv::INTER_LINEAR);
 
     cv::imshow("image", frame);
-    cv::imshow("undisttorted", undistFrame);
+    cv::imshow("undistorted", undistFrame);
 
     cv::waitKey(10);
   }
